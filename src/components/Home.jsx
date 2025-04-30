@@ -13,39 +13,39 @@ const Home = () => {
           into Web Reality
         </p>
         <div className="socila-media-profile">
-          {/* <a
-            href="https://www.linkedin.com/in/prasanya-shankar/"
+          <a
+            href="https://www.linkedin.com/in/nasana-pavani/"
             target="_blank"
             className="tooltip-icon"
             ><i className="fa-brands fa-linkedin-in"></i>
             <span className="tooltiptext-icon">LinkedIn</span>
-          </a> */}
-{/* 
+          </a>
+          
           <a
-            href="https://github.com/prasanya-web-developer"
+            href="https://github.com/Pavani17041989"
             target="_blank"
-            className="tooltip-icon"
+            className="tooltip-icon"s
             ><i className="fa-brands fa-github"></i>
             <span className="tooltiptext-icon">GitHub</span>
-          </a> */}
+          </a>
 
-          {/* <a
-            href="mailto:prasanya.webdev@gmail.com"
+          <a
+            href="mailto:pavani.ammu426@gmail.com"
             target="_blank"
             className="tooltip-icon"
           >
             <i className="fas fa-envelope"></i>
             <span className="tooltiptext-icon">Gmail</span>
-          </a> */}
+          </a>
         </div>
-        {/* <a href="Prasanya_Full_Stack_Developer.pdf" download className="button"
+        <a href="Pavani_Fullstack_Developer.pdf" download className="button"
           >Download Resume <i className="fa-solid fa-download"></i
-        ></a> */}
+        ></a>
       </div>
       <div className="home-img" style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
         <img
-          src="./src/assets/images/upload/v1709369514/IMG_7442.JPG"
-          alt="myImg" style={{ width: '300px', height: '300px',borderRadius:"50%" }}
+          src="./src/assets/images/upload/v1709369514/Pavani(2).jpg"
+          alt="myImg" style={{ width: '350px', height: '350px',borderRadius:"50%",border:"5px solid #59b2f4" }}
         />
       </div>
     </section>

@@ -15,7 +15,7 @@ const Homeblog = () => {
         <Skills/>
         <Services/>
         <Projects/>
-        <Certificates/>
+        {/* <Certificates/> */}
         <Contact/>
     </div>
   )

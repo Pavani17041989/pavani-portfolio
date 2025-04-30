@@ -11,7 +11,7 @@ const Footer = () => {
         <h2>
           Need a Portfolio Website Like This | Contact {' '}
           <a
-            href="https://linkedin.com/in/nasana-pavani"
+            href="https://www.linkedin.com/in/nasana-pavani/"
             target="_blank"
             className="tooltip"
             > Pavani <span className="tooltiptext">LinkedIn</span></a
