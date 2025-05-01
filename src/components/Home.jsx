@@ -44,7 +44,7 @@ const Home = () => {
       </div>
       <div className="home-img" style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
         <img
-          src="./src/assets/images/upload/v1709369514/Pavani(2).jpg"
+          src="./src/assets/images/upload/Pavani(2).jpg"
           alt="myImg" style={{ width: '350px', height: '350px',borderRadius:"50%",border:"5px solid #59b2f4" }}
         />
       </div>
