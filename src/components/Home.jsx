@@ -1,5 +1,6 @@
 import React from 'react';
-import myImage from '../assets/images/upload/Pavani(2).jpg'; // use renamed file
+import myImage from "../assets/images/upload/Pavani-2.jpg";
+
 
 const Home = () => {
   return (
