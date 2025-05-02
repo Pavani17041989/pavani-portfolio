@@ -2,7 +2,7 @@ import React from 'react';
 import project1 from '../assets/images/upload/Netflix.jpg';
 import project2 from '../assets/images/upload/Nxt_Trendz.jpg';
 import project3 from '../assets/images/upload/Rock_Paper_Scissors.jpg';
-import project4 from '../assets/images/upload/TaskManaging_App.jpg';
+import project4 from '../assets/images/upload/Taskmanaging_App.jpg';
 import project5 from '../assets/images/upload/Job_App.jpg';
 import project6 from '../assets/images/upload/Food_Much.jpg';
 
