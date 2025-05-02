@@ -1,93 +1,48 @@
 import React from 'react'
 
+// Import all skill images
+import skill1 from '../assets/images/upload/Html.png'
+import skill2 from '../assets/images/upload/Css.png'
+import skill3 from '../assets/images/upload/Bootstrap.png'
+import skill4 from '../assets/images/upload/Javascript.png'
+import skill5 from '../assets/images/upload/ReactJS.png'
+import skill6 from '../assets/images/upload/NodeJS.png'
+import skill7 from '../assets/images/upload/ExpressJS.png'
+import skill8 from '../assets/images/upload/SQL.png'
+import skill9 from '../assets/images/upload/MongoDB.png'
+import skill10 from '../assets/images/upload/Python.png'
+import skill11 from '../assets/images/upload/Figma.png'
+
 const Skills = () => {
+  const skills = [
+    { img: skill1, name: 'HTML' },
+    { img: skill2, name: 'CSS' },
+    { img: skill3, name: 'Bootstrap' },
+    { img: skill4, name: 'JavaScript' },
+    { img: skill5, name: 'React JS' },
+    { img: skill6, name: 'Node JS' },
+    { img: skill7, name: 'Express JS' },
+    { img: skill8, name: 'SQL' },
+    { img: skill9, name: 'MongoDB' },
+    { img: skill10, name: 'Python' },
+    { img: skill11, name: 'Figma' },
+  ]
+
   return (
     <div>
-         <section id="skills" className="skills">
-      <h2 className="heading">Technical <span>Skills</span></h2>
-      <div className="skills-container">
-        <div className="skill-card">
-          <img
-            src="./src/assets/images/upload/c573ff5552d6da9a1d28ec4e27cd1445-removebg-preview_w2hkck.png"
-            alt="skills1"
-          />
-          <p>HTML</p>
+      <section id="skills" className="skills">
+        <h2 className="heading">Technical <span>Skills</span></h2>
+        <div className="skills-container">
+          {skills.map((skill, index) => (
+            <div key={index} className="skill-card">
+              <img src={skill.img} alt={skill.name} />
+              <p>{skill.name}</p>
+            </div>
+          ))}
         </div>
-        <div className="skill-card">
-          <img
-            src="./src/assets/images/upload/ac262626eb1e924c85b8b68fe97c2213-removebg-preview_kihgsi.png"
-            alt="skills2"
-          />
-          <p>CSS</p>
-        </div>
-        <div className="skill-card">
-          <img
-            src="./src/assets/images/upload/Bootstrap-removebg-preview_opsbke.png"
-            alt="skills3"
-          />
-          <p>Bootstrap</p>
-        </div>
-        <div className="skill-card">
-          <img
-            src="./src/assets/images/upload/10_Best_Cheat_Sheets_That_A_Programmer_Must_Have-removebg-preview_daf4wt.png"
-            alt="skills4"
-          />
-          <p>JavaScript</p>
-        </div>
-        <div className="skill-card">
-          <img
-            src="./src/assets/images/upload/Windows_Vista__70-620__Part_1__Install_and_Getting_Started-removebg-preview_dlar2d.png"
-            alt="skills5"
-          />
-          <p>React JS</p>
-        </div>
-        <div className="skill-card">
-          <img
-            src="./src/assets/images/upload/0c8121171fefa57a22351d1a10e96c2b-removebg-preview_eglfs1.png"
-            alt="skills6"
-          />
-          <p>Node JS</p>
-        </div>
-        <div className="skill-card">
-          <img
-            src="./src/assets/images/upload/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview_yihadf.png"
-            alt="skills7"
-          />
-          <p>Express JS</p>
-        </div>
-        <div className="skill-card">
-          <img
-            src="./src/assets/images/upload/SQL_Basics___Hands-On_Beginner_SQL_Tutorial_Analyzing_Bike-Sharing-removebg-preview_a0aug6.png"
-            alt="skills8"
-          />
-          <p>SQL</p>
-        </div>
-        <div className="skill-card">
-          <img
-            src="./src/assets/images/upload/MongoDB_affine_l_%c3%a9quilibrage_de_charge_avec_sa_version_2_4_-_Le_Monde_Informatique-removebg-preview_1_ppnpok.png"
-            alt="skills9"
-          />
-          <p>MongoDB</p>
-        </div>
-        <div className="skill-card">
-          <img
-            src="./src/assets/images/upload/download__2_-removebg-preview_sjc7gv.png"
-            alt="skills10"
-          />
-          <p>Python</p>
-        </div>
-        <div className="skill-card">
-          <img
-            src="./src/assets/images/upload/Figma_s_new_icon___Figma_Blog-removebg-preview_fclwte.png"
-            alt="skills11"
-          />
-          <p>Figma</p>
-        </div>
-      </div>
-    </section>
+      </section>
     </div>
   )
 }
-
 
 export default Skills
