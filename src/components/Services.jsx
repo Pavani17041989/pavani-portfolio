@@ -1,4 +1,5 @@
 import React from 'react'
+import './Services.css'
 
 const Services = () => {
   return (
@@ -6,7 +7,7 @@ const Services = () => {
         <section className="service" id="services">
       <h2 className="heading">My<span> Services</span></h2>
       <div className="services-container">
-        <div className="service-card">
+        <div className="service-card slideup">
           <i className="fa-solid fa-code"></i>
           <h3>Web Development</h3>
           <p>
@@ -18,7 +19,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="service-card">
+        <div className="service-card slideup">
           <i className="fa-solid fa-code"></i>
           <h3>UI Development</h3>
           <p>
@@ -30,10 +31,10 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="service-card">
+        <div className="service-card slideup">
           <i className="fa-solid fa-palette"></i>
           <h3>UI Designing</h3>
-          <p>
+          <p slideup>
             UI design is all about aesthetics and usability. As a UI designer, I
             craft visually appealing layouts, choose color schemes, and create
             intuitive navigation. I pay attention to details like typography,

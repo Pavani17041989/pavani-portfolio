@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div>
         <section className="about" id="about">
-      <div className="about-container">
-        <h2 className="heading slideRightToLeft">About <span>Me</span></h2>
+      <div className="about-container slideRightToLeft">
+        <h2 className="heading">About <span>Me</span></h2>
         <p>
           I’m a Full Stack Developer with a strong foundation in HTML, CSS,
           JavaScript, Bootstrap, MongoDB, Node.js, Express.js and ReactJS.

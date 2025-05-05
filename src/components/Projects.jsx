@@ -1,4 +1,5 @@
 import React from 'react';
+import './Projects.css'
 import project1 from '../assets/images/upload/Netflix.jpg';
 import project2 from '../assets/images/upload/Nxt_Trendz.jpg';
 import project3 from '../assets/images/upload/Rock_Paper_Scissors.jpg';
@@ -13,7 +14,7 @@ const Projects = () => {
         <h2 className="heading">My<span> Projects</span></h2>
         <div className="project-container">
 
-          <div className="project-card">
+          <div className="project-card slide-up">
             <img src={project1} alt="project1" className="project-image" />
             <div className="project-content">
               <h4>Netflix Clone</h4>
@@ -29,7 +30,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="project-card">
+          <div className="project-card slide-up">
             <img src={project2} alt="project2" className="project-image" />
             <div className="project-content">
               <h4>NxT Trendz</h4>
@@ -44,7 +45,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="project-card">
+          <div className="project-card slide-up">
             <img src={project3} alt="project3" className="project-image" />
             <div className="project-content">
               <h4>Rock Paper Scissor</h4>
@@ -58,7 +59,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="project-card">
+          <div className="project-card slide-up">
             <img src={project4} alt="project4" className="project-image" />
             <div className="project-content">
               <h4>Task Managing App</h4>
@@ -72,7 +73,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="project-card">
+          <div className="project-card slide-up">
             <img src={project5} alt="project5" className="project-image" />
             <div className="project-content">
               <h4>Jobby App</h4>
@@ -86,7 +87,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="project-card">
+          <div className="project-card slide-up">
             <img src={project6} alt="project6" className="project-image" />
             <div className="project-content">
               <h4>Food Much</h4>

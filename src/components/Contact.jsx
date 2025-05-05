@@ -6,7 +6,7 @@ const Contact = () => {
         <section className="contact" id="contact">
       <h2 className="heading">Contact <span>Me</span></h2>
 
-      <form action="https://api.web3forms.com/submit" method="POST">
+      <form action="https://api.web3forms.com/submit" method="POST" className='slideLeftToRight'>
         <input
           type="hidden"
           name="access_key"

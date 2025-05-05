@@ -21,16 +21,14 @@ const Skills = () => {
     { img: skill6, name: 'Node JS' },
     { img: skill7, name: 'Express JS' },
     { img: skill9, name: 'MongoDB' },
-   
   ]
 
   return (
     <div>
       <section id="skills" className="skills">
         <h2 className="heading">Technical <span>Skills</span></h2>
-      
+        
         <div className="skills-container">
-         
           {skills.map((skill, index) => (
             <div key={index} className="skill-card">
               <img src={skill.img} alt={skill.name} />
