@@ -1,0 +1,17 @@
+.skill-card {
+    width: 22%; /* Slightly less than 25% to account for gap */
+    max-width: 250px; /* Optional: cap max width for large screens */
+    min-width: 200px; /* Optional: maintain size on smaller screens */
+    padding: 16px;
+    box-shadow: 0 0 10px #a9aaab;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  

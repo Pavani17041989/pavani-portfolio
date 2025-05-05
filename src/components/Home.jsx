@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css';
 import myImage from "../assets/images/upload/Pavani-2.jpg";
 
 
@@ -7,14 +8,14 @@ const Home = () => {
     <div>
       <section className="home" id="home">
         <div className="home-container">
-          <h3>Hello, I am</h3>
-          <h1>Pavani</h1>
-          <h1>I'm a <span>Full Stack Developer</span></h1>
-          <p>
+          <h3 className='slide-down'>Hello, I am</h3>
+          <h1 className='slide-down'>Pavani</h1>
+          <h1 className='slide-down'>I'm a <span>Full Stack Developer</span></h1>
+          <p className='slideRightToLeft'>
             Building Bridges Between Front-End and Back-End, Transforming Ideas
             into Web Reality
           </p>
-          <div className="socila-media-profile">
+          <div className="socila-media-profile slide-down">
             <a
               href="https://www.linkedin.com/in/nasana-pavani/"
               target="_blank"
@@ -43,10 +44,11 @@ const Home = () => {
               <span className="tooltiptext-icon">Gmail</span>
             </a>
           </div>
-          <a href="Pavani_Fullstack_Developer.pdf" download className="button">
+          <a href="Pavani_Fullstack_Developer.pdf" download className="button slide-down">
             Download Resume <i className="fa-solid fa-download"></i>
           </a>
         </div>
+    
 
         <div className="home-img" style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
           <img

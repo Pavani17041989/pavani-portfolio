@@ -1,0 +1,15 @@
+ /* Slide from right to left */
+ .slideRightToLeft {
+    animation: slideRightToLeft 1s ease-out forwards;
+    opacity: 0;
+  }
+  @keyframes slideRightToLeft {
+    0% {
+      transform: translateX(2rem);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
